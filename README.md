@@ -1235,7 +1235,7 @@ Demo videos and live deployment coming soon.
 
 ## License
 
-Not specified. See `LICENSE` file if present.
+No open-source license has been specified for this project yet. See the [LICENSE](LICENSE) file for the current usage status.
 
 ---
 
