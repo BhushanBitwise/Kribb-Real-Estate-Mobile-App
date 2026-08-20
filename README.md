@@ -10,6 +10,34 @@ This is a full-featured real estate discovery and management platform for iOS an
 
 **Real-World Problem**: Property discovery applications must handle real-time search across property attributes (title, location, price, type), maintain user-specific saved listings independently of app state, and enforce role-based access for admin property management—all while maintaining clean separation between authentication, state management, and data access layers.
 
+## App Screenshots
+
+### Real Estate App
+
+#### Authentication
+
+| Sign In                                                                                      | Sign Up                                                                                      |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| <img src="assets/screenshot/signIn.jpeg" alt="Real Estate App sign in screen" width="240" /> | <img src="assets/screenshot/SignUp.jpeg" alt="Real Estate App sign up screen" width="240" /> |
+
+#### Discover Properties
+
+| Home                                                                                    | Search                                                                                                     | Filters                                                                                     |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| <img src="assets/screenshot/home.jpeg" alt="Real Estate App home screen" width="240" /> | <img src="assets/screenshot/findProperty.jpeg" alt="Real Estate App property search screen" width="240" /> | <img src="assets/screenshot/filter.jpeg" alt="Real Estate App filter screen" width="240" /> |
+
+#### User Features
+
+| Saved Properties                                                                                     | Profile                                                                                       |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| <img src="assets/screenshot/saved.jpeg" alt="Real Estate App saved properties screen" width="240" /> | <img src="assets/screenshot/profile.jpeg" alt="Real Estate App profile screen" width="240" /> |
+
+#### Property Management
+
+| Add Property - Details                                                                                          | Add Property - Images                                                                                          |
+| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/screenshot/addProperty1.jpeg" alt="Real Estate App add property details screen" width="240" /> | <img src="assets/screenshot/addProperty2.jpeg" alt="Real Estate App add property images screen" width="240" /> |
+
 ## Architecture
 
 ```
