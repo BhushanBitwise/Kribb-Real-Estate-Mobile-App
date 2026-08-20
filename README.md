@@ -34,9 +34,17 @@ This is a full-featured real estate discovery and management platform for iOS an
 
 #### Property Management
 
-| Add Property - Details                                                                                          | Add Property - Images                                                                                          |
-| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| <img src="assets/screenshot/addProperty1.jpeg" alt="Real Estate App add property details screen" width="240" /> | <img src="assets/screenshot/addProperty2.jpeg" alt="Real Estate App add property images screen" width="240" /> |
+The **Add Property** tab is visible only for users whose Supabase `users.is_admin` value is `true`.
+
+| Admin User (`is_admin = true`) - Add Property Details                                                                 | Admin User (`is_admin = true`) - Add Property Images                                                                 |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/screenshot/addProperty1.jpeg" alt="Real Estate App admin add property details screen" width="240" /> | <img src="assets/screenshot/addProperty2.jpeg" alt="Real Estate App admin add property images screen" width="240" /> |
+
+For a normal user whose `users.is_admin` value is `false`, the Add Property tab is hidden:
+
+| Normal User (`is_admin = false`) - Add Property Hidden                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/screenshot/withoutAdmin.jpeg" alt="Real Estate App normal user screen without admin add property tab" width="240" /> |
 
 ## Architecture
 
